@@ -1,5 +1,9 @@
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
 set nocompatible
 let mapleader=' ' "use space for leader key
+set clipboard+=unnamed
 " Cursor behaviour
 :autocmd InsertEnter,InsertLeave * set cul!
 " General visual look of Vim
@@ -31,10 +35,6 @@ set scrolloff=3
 " Command line completion options
 set showcmd
 set wildmenu
-" Colors
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
 
 " Remappings
 " Exit insert mode by double tapping uppercase J
