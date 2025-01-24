@@ -4,8 +4,7 @@ let &t_EI = "\e[2 q"
 set nocompatible
 let mapleader=' ' "use space for leader key
 set clipboard+=unnamed
-" Cursor behaviour
-:autocmd InsertEnter,InsertLeave * set cul!
+
 " General visual look of Vim
 set number relativenumber
 set ruler
